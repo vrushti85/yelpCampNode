@@ -1,0 +1,139 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'mongoose',
+1 verbose cli   '@',
+1 verbose cli   '5.6.0' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData mongoose
+8 silly fetchPackageMetaData @
+9 silly fetchPackageMetaData 5.6.0
+10 silly fetchNamedPackageData mongoose
+11 silly mapToRegistry name mongoose
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry uri https://registry.npmjs.org/mongoose
+15 silly fetchOtherPackageData @
+16 silly cache add args [ '@', null ]
+17 verbose cache add spec @
+18 silly fetchNamedPackageData 5.6.0
+19 silly mapToRegistry name 5.6.0
+20 silly mapToRegistry using default registry
+21 silly mapToRegistry registry https://registry.npmjs.org/
+22 silly mapToRegistry uri https://registry.npmjs.org/5.6.0
+23 silly cache add parsed spec Result {
+23 silly cache add   raw: '@',
+23 silly cache add   scope: null,
+23 silly cache add   name: null,
+23 silly cache add   rawSpec: '@',
+23 silly cache add   spec: '/home/vrushtipatel/Desktop/vrushprog/webdevbootcamp/yelpCamp/@',
+23 silly cache add   type: 'local' }
+24 verbose request uri https://registry.npmjs.org/5.6.0
+25 verbose request no auth needed
+26 info attempt registry request try #1 at 09:07:08
+27 verbose request id 6b71a2904effaf28
+28 http request GET https://registry.npmjs.org/5.6.0
+29 error addLocal Could not install /home/vrushtipatel/Desktop/vrushprog/webdevbootcamp/yelpCamp/@
+30 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/home/vrushtipatel/Desktop/vrushprog/webdevbootcamp/yelpCamp/@'
+30 silly fetchPackageMetaData  error for @ { Error: ENOENT: no such file or directory, open '/home/vrushtipatel/Desktop/vrushprog/webdevbootcamp/yelpCamp/@'
+30 silly fetchPackageMetaData   errno: -2,
+30 silly fetchPackageMetaData   code: 'ENOENT',
+30 silly fetchPackageMetaData   syscall: 'open',
+30 silly fetchPackageMetaData   path: '/home/vrushtipatel/Desktop/vrushprog/webdevbootcamp/yelpCamp/@' }
+31 verbose request uri https://registry.npmjs.org/mongoose
+32 verbose request no auth needed
+33 info attempt registry request try #1 at 09:07:08
+34 verbose etag W/"648adc22739304ab8fdffbed1fa69158"
+35 verbose lastModified Wed, 12 Jun 2019 13:04:11 GMT
+36 http request GET https://registry.npmjs.org/mongoose
+37 http 200 https://registry.npmjs.org/mongoose
+38 verbose headers { date: 'Mon, 17 Jun 2019 03:37:08 GMT',
+38 verbose headers   'content-type': 'application/json',
+38 verbose headers   'transfer-encoding': 'chunked',
+38 verbose headers   connection: 'keep-alive',
+38 verbose headers   'set-cookie':
+38 verbose headers    [ '__cfduid=debda10265d125448717ff3faa4926c1d1560742628; expires=Tue, 16-Jun-20 03:37:08 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+38 verbose headers   'cf-cache-status': 'HIT',
+38 verbose headers   'cache-control': 'max-age=300',
+38 verbose headers   'cf-ray': '4e81fbb5db9cd5f0-BOM',
+38 verbose headers   etag: 'W/"6238c1df2f853dcd50f1719d8be7ae98"',
+38 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+38 verbose headers   'last-modified': 'Fri, 14 Jun 2019 21:11:45 GMT',
+38 verbose headers   vary: 'accept-encoding, accept',
+38 verbose headers   'x-amz-meta-rev': '1742-ff5f21414f023bdffa558074184d5c73',
+38 verbose headers   server: 'cloudflare',
+38 verbose headers   'content-encoding': 'gzip' }
+39 silly get cb [ 200,
+39 silly get   { date: 'Mon, 17 Jun 2019 03:37:08 GMT',
+39 silly get     'content-type': 'application/json',
+39 silly get     'transfer-encoding': 'chunked',
+39 silly get     connection: 'keep-alive',
+39 silly get     'set-cookie':
+39 silly get      [ '__cfduid=debda10265d125448717ff3faa4926c1d1560742628; expires=Tue, 16-Jun-20 03:37:08 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+39 silly get     'cf-cache-status': 'HIT',
+39 silly get     'cache-control': 'max-age=300',
+39 silly get     'cf-ray': '4e81fbb5db9cd5f0-BOM',
+39 silly get     etag: 'W/"6238c1df2f853dcd50f1719d8be7ae98"',
+39 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+39 silly get     'last-modified': 'Fri, 14 Jun 2019 21:11:45 GMT',
+39 silly get     vary: 'accept-encoding, accept',
+39 silly get     'x-amz-meta-rev': '1742-ff5f21414f023bdffa558074184d5c73',
+39 silly get     server: 'cloudflare',
+39 silly get     'content-encoding': 'gzip' } ]
+40 verbose get saving mongoose to /home/vrushtipatel/.npm/registry.npmjs.org/mongoose/.cache.json
+41 http 200 https://registry.npmjs.org/5.6.0
+42 verbose headers { date: 'Mon, 17 Jun 2019 03:37:09 GMT',
+42 verbose headers   'content-type': 'application/json; charset=UTF-8',
+42 verbose headers   'transfer-encoding': 'chunked',
+42 verbose headers   connection: 'keep-alive',
+42 verbose headers   'set-cookie':
+42 verbose headers    [ '__cfduid=debda10265d125448717ff3faa4926c1d1560742628; expires=Tue, 16-Jun-20 03:37:08 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+42 verbose headers   'cf-cache-status': 'REVALIDATED',
+42 verbose headers   'cache-control': 'max-age=300',
+42 verbose headers   'cf-ray': '4e81fbb5cb9bd5f0-BOM',
+42 verbose headers   etag: 'W/"94cb4450f694be0b8e47dc5656e3c0ca"',
+42 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+42 verbose headers   'last-modified': 'Sat, 26 May 2018 14:10:28 GMT',
+42 verbose headers   vary: 'accept-encoding, accept',
+42 verbose headers   server: 'cloudflare',
+42 verbose headers   'content-encoding': 'gzip' }
+43 silly get cb [ 200,
+43 silly get   { date: 'Mon, 17 Jun 2019 03:37:09 GMT',
+43 silly get     'content-type': 'application/json; charset=UTF-8',
+43 silly get     'transfer-encoding': 'chunked',
+43 silly get     connection: 'keep-alive',
+43 silly get     'set-cookie':
+43 silly get      [ '__cfduid=debda10265d125448717ff3faa4926c1d1560742628; expires=Tue, 16-Jun-20 03:37:08 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+43 silly get     'cf-cache-status': 'REVALIDATED',
+43 silly get     'cache-control': 'max-age=300',
+43 silly get     'cf-ray': '4e81fbb5cb9bd5f0-BOM',
+43 silly get     etag: 'W/"94cb4450f694be0b8e47dc5656e3c0ca"',
+43 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+43 silly get     'last-modified': 'Sat, 26 May 2018 14:10:28 GMT',
+43 silly get     vary: 'accept-encoding, accept',
+43 silly get     server: 'cloudflare',
+43 silly get     'content-encoding': 'gzip' } ]
+44 verbose get saving 5.6.0 to /home/vrushtipatel/.npm/registry.npmjs.org/5.6.0/.cache.json
+45 verbose stack TypeError: Cannot convert undefined or null to object
+45 verbose stack     at Function.keys (<anonymous>)
+45 verbose stack     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:121:29)
+45 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+45 verbose stack     at /usr/share/npm/lib/utils/pulse-till-done.js:19:8
+45 verbose stack     at saved (/usr/share/npm/lib/cache/caching-client.js:168:7)
+45 verbose stack     at /usr/share/npm/node_modules/graceful-fs/polyfills.js:210:7
+45 verbose stack     at FSReqWrap.oncomplete (fs.js:135:15)
+46 verbose cwd /home/vrushtipatel/Desktop/vrushprog/webdevbootcamp/yelpCamp
+47 error Linux 4.18.0-21-generic
+48 error argv "/usr/bin/node" "/usr/bin/npm" "install" "--save" "mongoose" "@" "5.6.0"
+49 error node v8.10.0
+50 error npm  v3.5.2
+51 error Cannot convert undefined or null to object
+52 error If you need help, you may report this error at:
+52 error     <https://github.com/npm/npm/issues>
+53 verbose exit [ 1, true ]
